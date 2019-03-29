@@ -1,0 +1,708 @@
+{
+  "fontColor": "#89c5d4",
+  "searchLayers": [
+    {
+      "url": "https://services9.arcgis.com/zPJnQ8zu5eW76hUp/arcgis/rest/services/Divulgación_Marina_WAB_WFL1/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Divulgación_Marina_WAB_WFL1_9993",
+      "layerId": "0",
+      "baseURL": "https://services9.arcgis.com/zPJnQ8zu5eW76hUp/arcgis/rest/services/Divulgación_Marina_WAB_WFL1/FeatureServer/",
+      "isMapServer": false,
+      "title": "Submarinismo",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{Nombre}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": false,
+            "isEditable": false,
+            "label": "OBJECTID"
+          },
+          {
+            "fieldName": "Nombre",
+            "visible": false,
+            "isEditable": true,
+            "label": "Nombre"
+          },
+          {
+            "fieldName": "Acceso",
+            "visible": true,
+            "isEditable": true,
+            "label": "Acceso"
+          },
+          {
+            "fieldName": "Nivel",
+            "visible": true,
+            "isEditable": true,
+            "label": "Nivel"
+          },
+          {
+            "fieldName": "Profundidad",
+            "visible": true,
+            "isEditable": true,
+            "label": "Profundidad",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Equipo_ad",
+            "visible": true,
+            "isEditable": true,
+            "label": "Equipo adicional"
+          },
+          {
+            "fieldName": "Tiempo",
+            "visible": true,
+            "isEditable": true,
+            "label": "Tiempo",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Descripción",
+            "visible": true,
+            "isEditable": true,
+            "label": "Descripción"
+          },
+          {
+            "fieldName": "Imagen",
+            "visible": false,
+            "isEditable": true,
+            "label": "Imagen"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [
+          {
+            "title": "{Nombre}",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "{Imagen}",
+              "linkURL": ""
+            }
+          }
+        ]
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://image.flaticon.com/icons/png/512/128/128938.png",
+          "width": 16.5,
+          "height": 16.5
+        }
+      }
+    },
+    {
+      "url": "https://services9.arcgis.com/zPJnQ8zu5eW76hUp/arcgis/rest/services/Divulgación_Marina_WAB_WFL1/FeatureServer/1",
+      "geometryType": "esriGeometryPoint",
+      "id": "Divulgación_Marina_WAB_WFL1_5268",
+      "layerId": "1",
+      "baseURL": "https://services9.arcgis.com/zPJnQ8zu5eW76hUp/arcgis/rest/services/Divulgación_Marina_WAB_WFL1/FeatureServer/",
+      "isMapServer": false,
+      "title": "Calas y playas",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{Nombre}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID_1",
+            "visible": false,
+            "isEditable": false,
+            "label": "OBJECTID_1"
+          },
+          {
+            "fieldName": "Web_munici",
+            "visible": false,
+            "isEditable": true,
+            "label": "Web Municipal"
+          },
+          {
+            "fieldName": "Nombre",
+            "visible": false,
+            "isEditable": true,
+            "label": "Nombre"
+          },
+          {
+            "fieldName": "Descripcion",
+            "visible": true,
+            "isEditable": true,
+            "label": "Descripcion"
+          },
+          {
+            "fieldName": "Imagen",
+            "visible": false,
+            "isEditable": true,
+            "label": "Imagen"
+          },
+          {
+            "fieldName": "LongitudS",
+            "visible": true,
+            "isEditable": true,
+            "label": "Longitud",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "AnchuraS",
+            "visible": true,
+            "isEditable": true,
+            "label": "Anchura",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Variación",
+            "visible": true,
+            "isEditable": true,
+            "label": "Variación"
+          },
+          {
+            "fieldName": "Grado_ocup",
+            "visible": true,
+            "isEditable": true,
+            "label": "Grado ocupación"
+          },
+          {
+            "fieldName": "Grado_urba",
+            "visible": true,
+            "isEditable": true,
+            "label": "Grado urbano"
+          },
+          {
+            "fieldName": "Paseo_mara",
+            "visible": true,
+            "isEditable": true,
+            "label": "Paseo marítimo"
+          },
+          {
+            "fieldName": "Tipo_paseo",
+            "visible": true,
+            "isEditable": true,
+            "label": "Tipo de paseo"
+          },
+          {
+            "fieldName": "Tipo_de_ar",
+            "visible": true,
+            "isEditable": true,
+            "label": "Tipo de arena"
+          },
+          {
+            "fieldName": "Condicione",
+            "visible": true,
+            "isEditable": true,
+            "label": "Condiciones aguas"
+          },
+          {
+            "fieldName": "Zona_fonde",
+            "visible": true,
+            "isEditable": true,
+            "label": "Zona fondeo"
+          },
+          {
+            "fieldName": "Nudismo",
+            "visible": true,
+            "isEditable": true,
+            "label": "Nudismo"
+          },
+          {
+            "fieldName": "Vegetació",
+            "visible": true,
+            "isEditable": true,
+            "label": "Vegetación"
+          },
+          {
+            "fieldName": "Actuacione",
+            "visible": true,
+            "isEditable": true,
+            "label": "Actuaciones"
+          },
+          {
+            "fieldName": "Acceso",
+            "visible": true,
+            "isEditable": true,
+            "label": "Acceso"
+          },
+          {
+            "fieldName": "Bandera_azul",
+            "visible": true,
+            "isEditable": true,
+            "label": "Bandera azul"
+          },
+          {
+            "fieldName": "Auxilio_y_",
+            "visible": true,
+            "isEditable": true,
+            "label": "Servicio Auxilio"
+          },
+          {
+            "fieldName": "Auxilio_y1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Vigencia Auxilio"
+          },
+          {
+            "fieldName": "Señalizac",
+            "visible": true,
+            "isEditable": true,
+            "label": "Bandera"
+          },
+          {
+            "fieldName": "Forma_de_a",
+            "visible": true,
+            "isEditable": true,
+            "label": "Forma de acceso"
+          },
+          {
+            "fieldName": "Señaliz_1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Acceso señalizado"
+          },
+          {
+            "fieldName": "Acceso_dis",
+            "visible": true,
+            "isEditable": true,
+            "label": "Acceso discapacitados"
+          },
+          {
+            "fieldName": "Carretera_",
+            "visible": true,
+            "isEditable": true,
+            "label": "Carretera"
+          },
+          {
+            "fieldName": "Autobús",
+            "visible": true,
+            "isEditable": true,
+            "label": "Autobús"
+          },
+          {
+            "fieldName": "Autobús_t",
+            "visible": true,
+            "isEditable": true,
+            "label": "Tipo de autobús"
+          },
+          {
+            "fieldName": "Aparcamien",
+            "visible": true,
+            "isEditable": true,
+            "label": "Parking"
+          },
+          {
+            "fieldName": "Aparcami_1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Vigilancia Parking"
+          },
+          {
+            "fieldName": "Aparcami_2",
+            "visible": true,
+            "isEditable": true,
+            "label": "Plazas Parking"
+          },
+          {
+            "fieldName": "Aseos",
+            "visible": true,
+            "isEditable": true,
+            "label": "Aseos"
+          },
+          {
+            "fieldName": "Lavapies",
+            "visible": true,
+            "isEditable": true,
+            "label": "Lavapies"
+          },
+          {
+            "fieldName": "Duchas",
+            "visible": true,
+            "isEditable": true,
+            "label": "Duchas"
+          },
+          {
+            "fieldName": "Teléfonos",
+            "visible": true,
+            "isEditable": true,
+            "label": "Teléfonos"
+          },
+          {
+            "fieldName": "Papelera",
+            "visible": true,
+            "isEditable": true,
+            "label": "Papelera"
+          },
+          {
+            "fieldName": "Alquiler_s",
+            "visible": true,
+            "isEditable": true,
+            "label": "Alquiler material"
+          },
+          {
+            "fieldName": "Oficina_tu",
+            "visible": true,
+            "isEditable": true,
+            "label": "Oficina de turismo"
+          },
+          {
+            "fieldName": "Zona_infan",
+            "visible": true,
+            "isEditable": true,
+            "label": "Zona infantil"
+          },
+          {
+            "fieldName": "Zona_depor",
+            "visible": true,
+            "isEditable": true,
+            "label": "Zona deportiva"
+          },
+          {
+            "fieldName": "Club_naút",
+            "visible": true,
+            "isEditable": true,
+            "label": "Club náutico"
+          },
+          {
+            "fieldName": "Submarinis",
+            "visible": true,
+            "isEditable": true,
+            "label": "Submarinismo"
+          },
+          {
+            "fieldName": "Zona_Surf",
+            "visible": true,
+            "isEditable": true,
+            "label": "Zona de Surf"
+          },
+          {
+            "fieldName": "Observacio",
+            "visible": true,
+            "isEditable": true,
+            "label": "Observaciones"
+          },
+          {
+            "fieldName": "Coordenada",
+            "visible": false,
+            "isEditable": true,
+            "label": "UTM_X",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Coordena_1",
+            "visible": false,
+            "isEditable": true,
+            "label": "UTM_Y",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Coordena_2",
+            "visible": false,
+            "isEditable": true,
+            "label": "GMS_X"
+          },
+          {
+            "fieldName": "Coordena_3",
+            "visible": false,
+            "isEditable": true,
+            "label": "GMS_Y"
+          },
+          {
+            "fieldName": "Puerto_dep",
+            "visible": true,
+            "isEditable": true,
+            "label": "Puerto deportivo"
+          },
+          {
+            "fieldName": "Web_puerto",
+            "visible": true,
+            "isEditable": true,
+            "label": "Web puerto"
+          },
+          {
+            "fieldName": "Distancia_",
+            "visible": true,
+            "isEditable": true,
+            "label": "Distancia al Puerto"
+          },
+          {
+            "fieldName": "Hospital",
+            "visible": true,
+            "isEditable": true,
+            "label": "Hospital"
+          },
+          {
+            "fieldName": "Dirección",
+            "visible": true,
+            "isEditable": true,
+            "label": "Dirección"
+          },
+          {
+            "fieldName": "Teléfono_",
+            "visible": true,
+            "isEditable": true,
+            "label": "Teléfono Hospital"
+          },
+          {
+            "fieldName": "Distancia1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Distancia al Hospital"
+          },
+          {
+            "fieldName": "Composicion",
+            "visible": true,
+            "isEditable": true,
+            "label": "Composicion"
+          },
+          {
+            "fieldName": "Fachada_Litoral",
+            "visible": true,
+            "isEditable": true,
+            "label": "Fachada Litoral"
+          },
+          {
+            "fieldName": "Espacio_pr",
+            "visible": true,
+            "isEditable": true,
+            "label": "Espacio protegido"
+          },
+          {
+            "fieldName": "Espacio__1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Tipo espacio protegido"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [
+          {
+            "title": "{Nombre}",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "{Imagen}",
+              "linkURL": ""
+            }
+          }
+        ]
+      },
+      "renderer": {
+        "type": "uniqueValue",
+        "field1": "Bandera_azul",
+        "fieldDelimiter": ",",
+        "defaultSymbol": null,
+        "uniqueValueInfos": [
+          {
+            "value": "No",
+            "symbol": {
+              "type": "picturemarkersymbol",
+              "url": "https://image.flaticon.com/icons/png/512/83/83513.png",
+              "width": 30,
+              "height": 30,
+              "size": 16,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "label": "Playa"
+          },
+          {
+            "value": "Sí",
+            "symbol": {
+              "type": "picturemarkersymbol",
+              "url": "${appPath}/configs/NearMe/url1553858733982.png",
+              "imageData": "a2f646026c8b0479647154a77a9bcc9c",
+              "contentType": "image/png",
+              "width": 35,
+              "height": 35,
+              "size": 16,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "label": "Playa con Bandera Azul"
+          }
+        ]
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": true
+  },
+  "defaultBufferDistance": 5,
+  "maxBufferDistance": 15,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_METER",
+    "routeUnit": "METER",
+    "distanceUnit": "meters",
+    "label": "Meters",
+    "acronym": "m",
+    "value": "meters"
+  },
+  "zoomToFeature": true,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Miles",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "selectedSearchLayerOnly": true,
+  "isGeodesic": true,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 12,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic1/Black_1_Esri_Pin2.png",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB5CAYAAADyOOV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjg2NjYzRjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjg2NjY0MDZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCODY2NjNENkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCODY2NjNFNkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+51b2xQAABXZJREFUeF7t3YttG1cQhWGX4BJSQkpICSnBpaSDlOASUoJLSAkpISUoO4RoMEc/xb374M97cQf4YOBI4nJmQC65evjL29vbNDAMp3FgOI0Dw2kcGE7jwHAaB4bTODCcxoHhNA4Mp3FgOI0Dw2kcGE7jwNCys74uflv8sfhr8WPx76Ju+JH6vPr8+rr6+rqdur3NRf0ZMLRsqF8Xfy7+Xtwu7Ch1u3X7dZymov4MGFoa6tvirKXeU8er464q6s+AoWVF1YD/WdwO/tnq+A8XTf0ZMLR8Ur8s6hx5O2hb3Z+6X1jUnwFDy52q89/aF0vPVvcLz8/UnwFDC1Q9Fd4O9FV9eMqm/gwYWqJe+ZGbPjySqT8DhpabqvegvSz3qu7vz/fO1J8BQ8tNfV/cDq8Xdb8vRf0ZMLS8V70yvR1aby6vrKk/A4aW9+r10Xt1eRRTfwYMLUvVOex2WEep82O9b63LjnWtuf5tuVbd6iv1Z8DQstTRb4vq0fToOnJ9/OhnjW/UnwFDy1JHDbq+K3T3KtOdqs+vr6Pba/Wd+jNgaFnqiMuRD68TP6gjnkV+UH8GDC0xpC32Lvdau5ecvVkwtOSQGh213GvtWnL2ZsHQkkNqUOfOM2rzOTl7s2BoySE1aH1BtbY2X3TJ3iwYWnJIK10uLJxYm17ZZ28WDC05pJUevc/dW3X7dNxPZW8WDC05pBXqStQzqvmKV/ZmwdCSQ1qh3jc/o5rfn2dvFgwtOaQVzj7/Xqv5PJy9WTC05JBWqG8cPKPqOHT8u7I3C4aWHNIKZ73/zWp+P5y9WTC05JBWmOfgBzC05JBWekbRcT+VvVkwtOSQVvp9cWbV7dNxP5W9WTC05JBWOvs8vOl6dPZmwdCSQ2pw1tWsTVexSvZmwdCSQ2pw1out5hdXV9mbBUNLDqlR/SDdkVW3R8dZJXuzYGjJIW0wf6IjYGjJIW2095G865F7lb1ZMLTkkHao38avv7PRUvX5h/3VgOzNgqElh3SAepFUT7f3fuKj8vr45hdT92RvFgwtOaSDXX+74eqs32q4yN4sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhackg9y94sGFpySD3L3iwYWnJIPcveLBhaltr9x09exPyfz8h79b7kuv/YnwFDy031uuTLcquoPwOGlqjelvxzuVXUnwFDC1QvS/7fcquoPwOGljv16kv+sNwq6s+AoeWTetUl43KrqD8DhpYH9WpLvrvcKurPgKFlRb3Kkj9dbhX1Z8DQsrLsJT9cbhX1Z8DQ0lDWklctt4r6M2BoaaxnL3n1cquoPwOGlg31rCU3LbeK+jNgaNlYZy+5eblV1J8BQ8uOOmvJm5ZbRf0ZMLTsrKOXvHm5VdSfAUPLAXXUknctt4r6M2BoOaj2Lnn3cquoPwOGlgNr65IPWW4V9WfA0HJwtS75sOVWUX8GDC0n1NolH7rcKurPgKHlpHq05MOXW0X9GTC0nFj3lnzKcquoPwOGlpMrl3zacquoPwOGlifUdcmnLreK+jNgOI0Dw2kcGE7jwHAaB4bTODCcxoHhNA4Mp3FgOI0Dw2kcGE7jwHAaxduX/wD39UwPVEJ3/AAAAABJRU5ErkJggg==",
+      "contentType": "image/png",
+      "width": 18.75,
+      "height": 18.75
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        194,
+        240,
+        255,
+        125
+      ],
+      "outline": {
+        "color": [
+          101,
+          179,
+          200,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        194,
+        240,
+        255,
+        255
+      ],
+      "outline": {
+        "color": [
+          101,
+          179,
+          200,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "layerId": "Divulgación_Marina_WAB_WFL1_9993",
+        "url": "https://services9.arcgis.com/zPJnQ8zu5eW76hUp/arcgis/rest/services/Divulgación_Marina_WAB_WFL1/FeatureServer/0",
+        "name": "Submarinismo",
+        "placeholder": "",
+        "searchFields": [],
+        "displayField": "Nombre",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "layerId": "Divulgación_Marina_WAB_WFL1_5268",
+        "url": "https://services9.arcgis.com/zPJnQ8zu5eW76hUp/arcgis/rest/services/Divulgación_Marina_WAB_WFL1/FeatureServer/1",
+        "name": "Calas y playas",
+        "placeholder": "",
+        "searchFields": [],
+        "displayField": "Nombre",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "ArcGIS World Geocoding Service",
+        "countryCode": "Spain",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": true,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": {},
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "filters": []
+  }
+}

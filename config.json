@@ -1,0 +1,220 @@
+{
+  "theme": {
+    "name": "TemaMar",
+    "styles": [
+      "blue",
+      "default",
+      "black",
+      "green"
+    ],
+    "version": "2.11",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "http://mar-roca-mora.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Divulgació marina Calp",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/TemaMar/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "themes/TemaMar/widgets/SidebarController/Widget",
+        "position": {
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 80,
+          "relativeTo": "browser"
+        },
+        "id": "themes_TemaMar_widgets_SidebarController_Widget_20",
+        "name": "SidebarController",
+        "version": "2.11"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Scalebar_Widget_21",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 10,
+          "top": 80,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_HomeButton_Widget_22",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 10,
+          "top": 120,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_MyLocation_Widget_23",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 140,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Coordinate_Widget_24",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 10,
+          "left": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_ZoomSlider_Widget_25",
+        "name": "ZoomSlider"
+      }
+    ]
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "7bb98b44a6ed4d94a31396ec23386f06",
+    "mapOptions": {
+      "extent": {
+        "xmin": 469.6032830634583,
+        "ymin": 4666874.459375846,
+        "xmax": 11323.661299543859,
+        "ymax": 4673199.623466437,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "http://mar-roca-mora.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/TemaMar/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "top": 0,
+        "right": 80,
+        "bottom": 0,
+        "width": 400,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "name": "InfoIdiomas",
+        "version": "2.11",
+        "IsController": false,
+        "uri": "widgets/InfoIdiomas/Widget",
+        "index": 2,
+        "id": "widgets_InfoIdiomas_Widget_26"
+      },
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.11",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 3
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.11",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 4
+      },
+      {
+        "name": "NearMe",
+        "version": "2.11",
+        "IsController": false,
+        "uri": "widgets/NearMe/Widget",
+        "config": "configs/NearMe/config_widgets_NearMe_Widget_29.json",
+        "index": 5,
+        "id": "widgets_NearMe_Widget_29"
+      },
+      {
+        "name": "eBasemapGallery",
+        "label": "Basemap Gallery",
+        "version": "2.8",
+        "uri": "widgets/eBasemapGallery/Widget",
+        "index": 6,
+        "id": "widgets_eBasemapGallery_Widget_27",
+        "config": "configs/eBasemapGallery/config_widgets_eBasemapGallery_Widget_27.json"
+      },
+      {
+        "name": "PopupPanel",
+        "label": "Información adicional",
+        "version": "2.11",
+        "uri": "widgets/PopupPanel/Widget",
+        "index": 7,
+        "id": "widgets_PopupPanel_Widget_28",
+        "config": "configs/PopupPanel/config_widgets_PopupPanel_Widget_28.json"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#135696",
+    "backgroundImage": {
+      "visible": true
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 720,
+      "height": 439
+    }
+  },
+  "wabVersion": "2.11",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  }
+}
