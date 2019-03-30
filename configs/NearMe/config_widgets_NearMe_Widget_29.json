@@ -529,7 +529,7 @@
             "value": "Sí",
             "symbol": {
               "type": "picturemarkersymbol",
-              "url": "${appPath}/configs/NearMe/url1553858733982.png",
+              "url": "${appPath}/configs/NearMe/url1553946060893.png",
               "imageData": "a2f646026c8b0479647154a77a9bcc9c",
               "contentType": "image/png",
               "width": 35,
@@ -547,8 +547,8 @@
   "bufferInfo": {
     "isVisible": true
   },
-  "defaultBufferDistance": 5,
-  "maxBufferDistance": 15,
+  "defaultBufferDistance": 100,
+  "maxBufferDistance": 2500,
   "bufferDistanceUnit": {
     "bufferUnit": "UNIT_METER",
     "routeUnit": "METER",
@@ -632,7 +632,7 @@
         194,
         240,
         255,
-        255
+        82
       ],
       "outline": {
         "color": [
@@ -687,14 +687,14 @@
         "name": "ArcGIS World Geocoding Service",
         "singleLineFieldName": "SingleLine",
         "placeholder": "ArcGIS World Geocoding Service",
-        "countryCode": "Spain",
+        "countryCode": "",
         "zoomScale": 50000,
         "maxSuggestions": 6,
         "maxResults": 6,
-        "searchInCurrentMapExtent": true,
+        "searchInCurrentMapExtent": false,
         "enableLocalSearch": true,
         "localSearchMinScale": 300000,
-        "localSearchDistance": 50000,
+        "localSearchDistance": 100,
         "type": "locator"
       }
     ]

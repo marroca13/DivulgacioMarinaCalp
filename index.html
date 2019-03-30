@@ -75,16 +75,23 @@
       }
 		</style>
     <link rel="stylesheet" type="text/css" href="configs/loading/loading.css" />
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135291644-2"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-135291644-2');
+			/*******************************
+			* This is the function you can modify to customize the loading page
+			* This function will be invoked when one resource is loaded.
+			********************************/
+			// var progress;
+			// function loadingCallback(url, i, count) {
+			// 	var loading = document.getElementById('main-loading-bar');
+			// 	loading.setAttribute('title', url);
+			//   if(!progress){
+			//     progress = document.createElement('div');
+			//     progress.setAttribute('class', 'loading-progress');
+			//     loading.appendChild(progress);
+			//   }
+			//   progress.style.width = (((i - 1)/count) * 100) + '%';
+			// }
 		</script>
-
 	</head>
 	<body class="claro jimu-main-font">
 
